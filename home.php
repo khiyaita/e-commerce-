@@ -1,6 +1,4 @@
-
-
-<!DOCTYPE html>
+<!----><!DOCTYPE html>
 <html lang="fr">
 <head>
    <meta charset="UTF-8">
@@ -10,15 +8,12 @@
 
    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
    
-   <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
 </head>
 <body>
    
-
-
-<div class="home-bg">
+   <div class="home-bg">
 
 <section class="home">
 
@@ -94,9 +89,7 @@
 
    <a href="category.php?category=souris" class="swiper-slide slide">
       <img src="images/icon-4.png" alt="">
-     
-
- <h3>souris</h3>
+     <h3>souris</h3>
    </a>
 
    <a href="category.php?category=réfrigérateur" class="swiper-slide slide">
@@ -126,68 +119,3 @@
    </div>
 
 </section>
-
-
-<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-
-
-<script>
-
-var swiper = new Swiper(".home-slider", {
-   loop:true,
-   spaceBetween: 20,
-   pagination: {
-      el: ".swiper-pagination",
-      clickable:true,
-    },
-});
-
- var swiper = new Swiper(".category-slider", {
-   loop:true,
-
-
-   spaceBetween: 20,
-   pagination: {
-      el: ".swiper-pagination",
-      clickable:true,
-   },
-   breakpoints: {
-      0: {
-         slidesPerView: 2,
-       },
-      650: {
-        slidesPerView: 3,
-      },
-      768: {
-        slidesPerView: 4,
-      },
-      1024: {
-        slidesPerView: 5,
-      },
-   },
-});
-
-var swiper = new Swiper(".products-slider", {
-   loop:true,
-   spaceBetween: 20,
-   pagination: {
-      el: ".swiper-pagination",
-      clickable:true,
-   },
-   breakpoints: {
-      550: {
-        slidesPerView: 2,
-      },
-      768: {
-        slidesPerView: 2,
-      },
-      1024: {
-        slidesPerView: 3,
-      },
-   },
-});
-
-</script>
-
-</body>
-</html>
